@@ -8,24 +8,45 @@
       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Documentation: Simple See Through Shaders</title>
   </head>
+  
   <body>
-  <h1>Simple See Through Shaders for Unity3d</h1>
-  <video width="250" autoplay loop muted>
-    <source src= "media/SimpleSeeThroughShaders.mp4"
-      type="video/mp4"/>
-  </video>
-  <p>Thank you for using the Simple See Through Shaders for Unity3d URP.
-  <br/>
-    <b>How to use:</b>
-  <br/>
-    To create the see through effect you will need at least 2 objects:
-  <br/>
-    <ul>
-      <li>the object that should be rendered invisible by the mask</li>
-      <li>the mask object</li>
-    </ul>
-  <br/>
-    The effect uses two shaders: mask and maskable. (see "mask any shader section")
-  </p>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+
+    <div id="main">
+      <h1>Simple See Through Shaders for Unity3d</h1>
+      <video width="500" autoplay loop muted>
+        <source src= "media/SimpleSeeThroughShaders.mp4"
+          type="video/mp4"/>
+      </video>
+      <p>Thank you for using the Simple See Through Shaders for Unity3d URP.
+       <br/>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <br/>
+        <b>How to use:</b>
+      <br/>
+        To create the see through effect you will need at least 2 objects:
+      <br/>
+        <ul>
+          <li>the object that should be rendered invisible by the mask</li>
+          <li>the mask object</li>
+        </ul>
+      <br/>
+        The effect uses two shaders: mask and maskable. (see "mask any shader section")
+      </p>
+    </div>
+
+    <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
   </body>
 </html>
