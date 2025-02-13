@@ -53,7 +53,11 @@ h1 {
 
 #main {
   transition: margin-left .5s;
-  padding: 25px;
+  padding: 35px;
+}
+
+#mainContainer {
+  
 }
 
 @media screen and (max-height: 450px) {
