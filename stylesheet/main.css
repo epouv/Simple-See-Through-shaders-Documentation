@@ -55,10 +55,6 @@ h1 {
   padding-left: 50px;
 }
 
-#mainContainer {
-  
-}
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
 }
