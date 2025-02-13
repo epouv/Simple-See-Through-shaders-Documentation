@@ -51,7 +51,6 @@ h1 {
 }
 
 #main {
-  position: absolute;
   transition: margin-left .5s;
   padding-left: 50px;
 }
