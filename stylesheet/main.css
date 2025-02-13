@@ -53,8 +53,11 @@ h1 {
 #main {
   position: absolute;
   transition: margin-left .5s;
-  padding: 25px;
   padding-left: 50px;
+}
+
+#menuBtnContainer {
+  position: absolute;
 }
 
 #mainContainer {
