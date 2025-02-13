@@ -51,13 +51,14 @@ h1 {
 }
 
 #main {
+  position: absolute;
   transition: margin-left .5s;
   padding: 25px;
   padding-left: 50px;
 }
 
 #mainContainer {
-  
+  position: relative;
 }
 
 @media screen and (max-height: 450px) {
