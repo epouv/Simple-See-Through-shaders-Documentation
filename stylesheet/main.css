@@ -10,6 +10,10 @@ h1 {
   font-style: normal;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 #sideMenuBtn {
   position: sticky;
   top: 15px;
