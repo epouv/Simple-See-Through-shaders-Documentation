@@ -24,6 +24,10 @@ h2 {
   font-weight: bold;
 }
 
+#intro {
+  display: flex;
+}
+
 #contact {
   display: grid;
 }
