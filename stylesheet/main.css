@@ -28,6 +28,10 @@ h2 {
   display: grid;
 }
 
+#inlineGrid {
+  display: flex:
+}
+
 #sideMenuBtn {
   position: sticky;
   top: 15px;
