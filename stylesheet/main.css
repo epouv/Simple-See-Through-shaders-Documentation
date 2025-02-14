@@ -18,6 +18,10 @@ h1 {
   font-weight: bold;
 }
 
+#contact {
+  display: grid;
+}
+
 #sideMenuBtn {
   position: sticky;
   top: 15px;
