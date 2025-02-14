@@ -43,6 +43,10 @@ h2 {
   top: 15px;
 }
 
+#anyShaderTuto p {
+  text-justify: auto;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
