@@ -28,6 +28,7 @@
               <br/>
               <br/>
               <b>How to use:</b>
+            </p>
             <br/>
               To create the see through effect you will need at least 2 objects:
             <br/>
@@ -36,7 +37,8 @@
                 <li>the mask object</li>
               </ul>
             <br/>
-              The effect uses two shaders: mask and maskable. (see "mask any shader section")
+            <p>
+              The effect uses two shaders: mask and maskable. <a href="#anyShaderTuto">(see "mask any shader section")</a>
             </p>
           </div>
 
@@ -45,6 +47,30 @@
               <source src= "media/SimpleSeeThroughShaders.mp4"
                 type="video/mp4"/>
             </video>
+          </div>
+        </div>
+        <div id="anyShaderTuto">
+          <h2>Mask any shader</h2>
+          <div id="shaderGraphTuto">
+            <h3>Shader Graph</h3>
+            <p>
+              While Shader Graph does not supports stencil commands we can still make shaders created with it interact with our mask.
+              <br/>
+              To do that we must turn the graph into a shader file:
+              <br/>
+              <ul>
+                <li>Select the ShaderGraph file, and in the inspector click 'view generated shader'</li>
+                <li>Copy everything in the opened file (except the name at the very top)</li>
+                <li>In you project create a shader: right click -> create -> shader -> new standard surface shader and name it how you want</li>
+                <li>Paste the copied shader graph into the shader file</li>
+              </ul>
+            To add the stencil to this newly created shader proceed to the next section. >>>
+            </p>
+          </div>
+          <div id="shaderFileTuto">
+            <h3>Shader File</h3>
+            <p>In your shader inside the Subgraph paste the following code:</p>
+            <p>CODE</p>
           </div>
         </div>
         <div id="contact">
