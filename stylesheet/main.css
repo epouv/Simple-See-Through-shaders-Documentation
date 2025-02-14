@@ -28,6 +28,10 @@ h2 {
   display: flex;
 }
 
+#intro div {
+  padding: 25px;
+}
+
 #contact {
   display: grid;
 }
