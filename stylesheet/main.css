@@ -10,6 +10,12 @@ h1 {
   font-style: normal;
 }
 
+h2 {
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .underline {
   text-decoration: underline;
 }
