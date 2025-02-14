@@ -26,10 +26,7 @@ h2 {
 
 #intro {
   display: flex;
-}
-
-#intro div {
-  padding: 25px;
+  flex: auto;
 }
 
 #contact {
