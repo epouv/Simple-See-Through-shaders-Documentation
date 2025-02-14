@@ -28,7 +28,7 @@ h2 {
   display: grid;
 }
 
-#inlineGrid {
+.inlineGrid {
   display: flex;
 }
 
