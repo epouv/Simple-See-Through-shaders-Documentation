@@ -92,6 +92,10 @@ h2, h3 {
   color: #f1f1f1;
 }
 
+.flexClass{
+  display: flex;
+}
+
 #main {
   transition: margin-left .5s;
   padding-left: 50px;
