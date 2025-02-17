@@ -30,6 +30,10 @@ h2, h3 {
   justify-content: space-evenly;
 }
 
+.logoLinks {
+  display: flex;
+}
+
 #contact {
   display: grid;
 }
