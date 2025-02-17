@@ -70,8 +70,20 @@
           </div>
           <div id="shaderFileTuto">
             <h3>Shader File</h3>
-            <p>In your shader inside the Subgraph paste the following code:</p>
-            <p>CODE</p>
+            <p>In your shader code, in the "tags" section at the top of the subgraph, make sure that "Queue" is set to "transparent+2"</p>
+            <p>After the "tags" section, in the Subgraph before the "pass", paste the following code:</p>
+            <p>
+              Stencil
+                {
+                    Ref 1
+                    Comp NotEqual
+                    Pass Keep
+                    Fail Keep
+                    ZFail Keep
+                }
+            </p>
+            <p>Your shader code should look like this:</p>
+            <img src="media/CaptureAnnoté.png" alt="shader code screenshot" />
           </div>
         </div>
         <div id="contact">
