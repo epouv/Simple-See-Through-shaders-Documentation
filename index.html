@@ -72,7 +72,8 @@
             <h3>Shader File</h3>
             <p>In your shader code, in the "tags" section at the top of the subgraph, make sure that "Queue" is set to "transparent+2"</p>
             <p>After the "tags" section, in the Subgraph before the "pass", paste the following code:</p>
-            <p>
+            <br>
+            <pre>
               Stencil
                 {
                     Ref 1
@@ -81,7 +82,7 @@
                     Fail Keep
                     ZFail Keep
                 }
-            </p>
+            </pre>
             <p>Your shader code should look like this:</p>
             <img src="media/CaptureAnnoté.png" alt="shader code screenshot" />
           </div>
