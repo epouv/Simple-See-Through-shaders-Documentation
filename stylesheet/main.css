@@ -86,6 +86,10 @@ h2, h3 {
   grid-area: tutoHeader;
 }
 
+#tutoHeader p {
+  max-width: 80%;
+}
+
 #tutoList {
     grid-area: tutoList;
 }
