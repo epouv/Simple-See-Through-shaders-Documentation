@@ -33,10 +33,15 @@ h2, h3 {
 
 #intro p {
   margin: 0;
+  max-width: 80%;
 }
 
 #intro li {
   padding: 5px 0 5px 0;
+}
+
+#intro video {
+  padding-right: 100px;
 }
 
 .logoLinks {
@@ -124,8 +129,10 @@ h2, h3 {
   width: 60%;
 }
 
-#EndSection {
-  background-color: #525a66;
+#contact {
+  padding: 0 0 0px 10px;
+}
+#about {
   padding: 0 0 5px 10px;
 }
 
