@@ -64,7 +64,7 @@ h2, h3 {
     "tutoList tutoImg"
     "tutoFooter tutoFooter";
   grid-template-columns: 3fr 1fr;
-  gap: 5px;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 #tutoHeader {
@@ -94,7 +94,7 @@ h2, h3 {
 }
 
 #tutoList li {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 #tutoImg {
