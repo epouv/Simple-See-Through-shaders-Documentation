@@ -85,7 +85,7 @@ h2, h3 {
   padding-bottom: 5px;
 }
 
-#tutoList ul > li {
+#tutoList li:first-child {
   padding-top: 0;
 }
 
