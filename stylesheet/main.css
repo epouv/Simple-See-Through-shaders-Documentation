@@ -37,6 +37,7 @@ h2, h3 {
 
 .logoLinks {
   display: flex;
+  padding: 5px 0 5px 0;
 }
 
 .logoLinks img {
