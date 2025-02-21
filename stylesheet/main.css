@@ -57,6 +57,32 @@ h2, h3 {
   text-align: justify;
 }
 
+#anyShaderTuto {
+  display: grid;
+  grid-template-areas:
+    "tutoHeader tutoHeader"
+    "tutoList tutoImg"
+    "tutoFooter tutoFooter";
+  grid-template-areas: 3fr 1fr;
+  gap: 5px;
+}
+
+#tutoHeader {
+  grid-area: tutoHeader;
+}
+
+#tutoList {
+    grid-area: tutoList;
+}
+
+#tutoImg {
+    grid-area: tutoImg;
+}
+
+#tutoFooter {
+  grid-area: tutoFooter;
+}
+
 .sidenav {
   height: 100%;
   width: 0;
