@@ -35,6 +35,10 @@ h2, h3 {
   margin: 0;
 }
 
+#intro li {
+  padding: 5px 0 5px 0;
+}
+
 .logoLinks {
   display: flex;
   padding: 5px 0 5px 0;
