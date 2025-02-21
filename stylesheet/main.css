@@ -54,7 +54,7 @@ h2, h3 {
 }
 
 #anyShaderTuto p {
-  text-justify: auto;
+  text-align: justify;
 }
 
 .sidenav {
