@@ -52,28 +52,32 @@
           </div>
         </div>
         <div id="anyShaderTuto">
-          <h2>Mask any shader</h2>
-          <div id="shaderGraphTuto">
-            <h3>Shader Graph</h3>
-            <p>
-              While Shader Graph does not supports stencil commands we can still make shaders created with it interact with our mask.
-              <br/>
-              To do that we must turn the graph into a shader file:
-             </p>
-              <br/>
-            <div class="flexClass">
+          <div id="tutoHeader">
+            <h2>Mask any shader</h2>
+              <h3>Shader Graph</h3>
+              <p>
+                While Shader Graph does not supports stencil commands we can still make shaders created with it interact with our mask.
+                <br/>
+                To do that we must turn the graph into a shader file:
+               </p>
+          </div>
+            <div id="tutoList">
               <ul>
                 <li>Select the ShaderGraph file, and in the inspector click "copy code" </li>
                 <li>In you project create a shader: right click -> create -> shader -> new standard surface shader and name it how you want</li>
                 <li>Paste the copied shader graph code over the shader file template code (keep the top line containing the name you chose)</li>
                 <li>Delete the shader graph name</li>
               </ul>
+            </div>
+            <div id="tutoImg">
               <img src="media/CopyShaderShaderHighlighted.PNG" alt="shaderGraph view in the inspector"/>
             </div>
+            <div id="tutoFooter">
               <video controls muted>
                 <source src="media/ShaderGraphToMaskableShader.mp4" type="video/mp4"/>
               </video>
             <p>To add the stencil to this newly created shader proceed to the next section.</p>
+            <div>
           </div>
           <div id="shaderFileTuto">
             <h3>Shader File</h3>
