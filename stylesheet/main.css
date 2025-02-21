@@ -122,6 +122,11 @@ h2, h3 {
 
 #EndSection {
   background-color: #525a66;
+  padding: 0 0 5px 10px;
+}
+
+#EndSection h2 {
+  margin: 0;
 }
 
 .sidenav {
