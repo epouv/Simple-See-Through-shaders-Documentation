@@ -19,6 +19,7 @@ h2, h3 {
 
 .underline {
   text-decoration: underline;
+  padding-left: 15px;
 }
 
 .bold {
