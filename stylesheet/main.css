@@ -64,7 +64,6 @@ h2, h3 {
     "tutoList tutoImg"
     "tutoFooter tutoFooter";
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: auto;
   gap: 5px;
 }
 
@@ -76,8 +75,18 @@ h2, h3 {
     grid-area: tutoList;
 }
 
+#tutoList > ul {
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+#tutoList > li {
+  font-size: 25px;
+}
+
 #tutoImg {
     grid-area: tutoImg;
+    scale: .6;
 }
 
 #tutoFooter {
